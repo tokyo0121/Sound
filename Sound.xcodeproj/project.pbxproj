@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5C41302647DCA60046A306 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C412F2647DCA60046A306 /* icon.png */; };
 		2D79707B26452F3D0001E72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D79707A26452F3D0001E72C /* AppDelegate.swift */; };
 		2D79707D26452F3D0001E72C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D79707C26452F3D0001E72C /* SceneDelegate.swift */; };
 		2D79707F26452F3D0001E72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D79707E26452F3D0001E72C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D5C412F2647DCA60046A306 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2D79707726452F3D0001E72C /* Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D79707A26452F3D0001E72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D79707C26452F3D0001E72C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		2D79707926452F3D0001E72C /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				2D5C412F2647DCA60046A306 /* icon.png */,
 				2D79707A26452F3D0001E72C /* AppDelegate.swift */,
 				2D79707C26452F3D0001E72C /* SceneDelegate.swift */,
 				2D79707E26452F3D0001E72C /* ViewController.swift */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C41302647DCA60046A306 /* icon.png in Resources */,
 				2D79708726452F410001E72C /* LaunchScreen.storyboard in Resources */,
 				2D79708426452F410001E72C /* Assets.xcassets in Resources */,
 				2D79708226452F3D0001E72C /* Main.storyboard in Resources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9CMNWXBXN;
 				INFOPLIST_FILE = Sound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9CMNWXBXN;
 				INFOPLIST_FILE = Sound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
